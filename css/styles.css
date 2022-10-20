@@ -46,25 +46,25 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
-body {
+    body {
     background-color: #aad4cf;
+    padding-bottom: 15px;
 }
-
-.container {
-    background-color: #d4e9e7;
-    width: 1025px;
-    margin: auto;
-padding-bottom: 40px;}
-
+    .container {
+        background-color: #d4e9e7;
+        width: 1024px;
+        margin: auto;
+        padding-bottom: 40px;}
+/*Page Heading 1 on top of main picture*/
     h1{
         position: absolute;
-        font-size: 65px;
+        font-size: 60px;
         font-family: Arial, Helvetica, sans-serif;
         color: white;
-        margin-left: 320px;
+        margin-left: 338px;
         margin-top: -140px;
     }
-
+/*Interactive Navigation Bar*/
     nav a{
         color: #000;
         text-decoration: none;
@@ -73,16 +73,15 @@ padding-bottom: 40px;}
         width: 220px;
         height: 10px;  
         padding: 10px 55px;
-        font-size: 25px;
+        font-size: 24px;
         font-family: Arial, Helvetica, sans-serif;
         text-align: center;
         word-spacing: 250px;
       }
-
       nav a:last-child{
         border-right: none;
     }
-
+/*Sub Heading2 - intro to article*/
     .first_sub{
         font-family: Arial, Helvetica, sans-serif;
         font-size: 40px;
@@ -91,112 +90,136 @@ padding-bottom: 40px;}
         letter-spacing: -1px;
     }
         
-
+/*Starfish close up picture - also floated to the left*/
     .starfish_two{
         float: left;
         height: 255px;
         width: 250px;
-        margin-top: 0px;
+        margin-top: 7px;
         padding-right: 20px;
         padding-bottom: 25px;
     }
-
+/*Paragraph in article wrapping around Starfish*/
     article{
         font-family: Arial, Helvetica, sans-serif;
         margin-top: -10px;
-        padding-right: 39px;
         padding-bottom: 150px;
-        font-size: 18.5px;
-        word-spacing: 4.5px;
+        font-size: 16px;
+        word-spacing: 1.5px;
         margin-left: 10px;
+        line-height: 23px;
     }
-
+/*Fact subheading*/
     .facts_sub{
-        font-size: 40px;
+        font-size: 29px;
         font-family: Arial, Helvetica, sans-serif;
         padding-top: 30px;
     }
-
-
+/*Bullet points*/
     .facts_list{
         list-style: disc;
         margin-left: 20px;
         margin-top: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
     }
-
+/*Contact heading for user information*/
     .contact_sub{
-        font-size: 40px;
+        font-size: 28px;
         font-family: Arial, Helvetica, sans-serif;
         margin-top: -170px;
         margin-left: 10px;
     }
+/*Border for Interactive area*/    
     .box1{
         width: 980px;
-        height: 380px;
+        height: 400px;
         border: 1px solid #191919;
         padding: 10px;
         margin: 10px;}
-
+/*User Input Name*/
         .name{
             margin-top: 20px;
             margin-left: 5px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 19px;
         }
-    
+/*Navigation Bar*/
         .type_name{
         resize: none;
         margin-top: 10px;
         margin-left: 5px;
         height: 20px;
         width: 965px;
+        border-radius: 0px;
+        border-color: rgb(204, 204, 204);
+        border-top-color: rgb(186,194,193);
     }
-
+/*Email title*/
     .email{
         margin-top: 15px;
         margin-left: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 19px;
     }
-
+/*User Input Email*/
     .type_email{
         resize: none;
         margin-top: 10px;
         margin-left: 5px;
         height: 20px;
         width: 965px;
+        border-radius: 0px;
+        border-color: rgb(204, 204, 204);
+        border-top-color: rgb(186,194,193);
     }
+/*Message title*/
     .message{
         margin-top: 15px;
         margin-left: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 19px;
     }
-
+/*User Input Message*/
     .type_message{
         resize: none;
         margin-top: 10px;
         margin-left: 5px;
         height: 70px;
         width: 965px;
+        border-radius: 0px;
+        border-color: rgb(186,194,193);
+        border-top-color: rgb(153, 153, 153);
     }
-
+/*Heading3 guide*/
     .heading3{
         margin-top: 10px;
         margin-left: 5px;
         margin-bottom: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 24px;
     }
-
+/*Selection Circles*/
     .butts{
         margin: -3px;
         margin-left: 5px;
+        font-family: Arial, Helvetica, sans-serif;
     }
-
+/*Button*/
     .send_it{
         margin-top: 10px;
         background: none;
         height: 35px;
         width: 50px;
+        border-width: thin;
+        font-size: 11px;
+        font-family: Arial, Helvetica, sans-serif;
     }
-
-
-
+/*Copy right symbol followed by subject name*/
     .copy_r{
 text-align: right;
 margin-right: 30px;
 padding-top: 20px;
+font-size: 18px;
+font-family: Arial, Helvetica, sans-serif;
     }
