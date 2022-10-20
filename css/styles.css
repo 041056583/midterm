@@ -54,7 +54,7 @@ body {
     background-color: #d4e9e7;
     width: 1025px;
     margin: auto;
-padding-bottom: 50px;}
+padding-bottom: 40px;}
 
     h1{
         position: absolute;
@@ -196,6 +196,7 @@ padding-bottom: 50px;}
 
 
     .copy_r{
-        margin-left: 1200px;
-        margin-top: -35px;
+text-align: right;
+margin-right: 30px;
+padding-top: 20px;
     }
